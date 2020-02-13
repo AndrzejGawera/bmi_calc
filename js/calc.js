@@ -76,7 +76,3 @@ class BmiCalc {
 }
 
 const calc = new BmiCalc;
-
-function inRange(a,b,x) {
-  return a<=x && x<=b;
-}
