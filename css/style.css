@@ -85,7 +85,7 @@ body {
 
 .bmi-calc__input {
   margin: .5rem auto 1em;
-  width: 5em;
+  width: 4em;
   height: 1.7em;
   padding-bottom: .2em;
   font-family: "Quicksand", sans-serif;
@@ -95,6 +95,7 @@ body {
   color: #3d5a73;
   background: #dedcd6;
   border: none;
+  border-bottom: 1px solid #3d5a73;
   -webkit-transition: all .3s;
   transition: all .3s;
 }

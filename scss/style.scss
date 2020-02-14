@@ -69,7 +69,7 @@ body {
   }
   &__input {
     margin: .5rem auto 1em;
-    width: 5em;
+    width: 4em;
     height: 1.7em;
     padding-bottom: .2em;
     font-family: $base-font;
@@ -79,6 +79,7 @@ body {
     color: $colorSteel;
     background: lighten($colorBeige, 25);
     border: none;
+    border-bottom: 1px solid $colorSteel;
     transition: all .3s;
     // for input type number
     //&::-webkit-outer-spin-button,
